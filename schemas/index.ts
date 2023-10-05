@@ -1,3 +1,3 @@
-import word from './word'
+import contents from './contents'
 
-export const schemaTypes = [word]
+export const schemaTypes = [contents]
