@@ -8,7 +8,7 @@ const devOnlyPlugins = [getStartedPlugin()]
 
 export default defineConfig({
   name: 'default',
-  title: 'test_svelte',
+  title: 'test_sanity',
 
   projectId: 'c1ruzi4o',
   dataset: 'production',
