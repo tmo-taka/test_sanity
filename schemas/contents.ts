@@ -13,7 +13,12 @@ export default {
             name: 'tags',
             title: 'コンテンツタグ',
             type: 'array',
-            of: [{type: 'string'}],
+            of: [
+                {
+                    type: 'reference',
+                    to: [{type: 'tag'}]
+                }
+            ]
         },
         {
             name: 'mainVisual',
